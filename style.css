@@ -75,6 +75,8 @@ p {
   border: 1px solid black;
   margin: 10px;
   background-color: black;
+  transform-style: preserve-3d;
+  transition: transform 400ms;
 }
 
 .gameOver {
@@ -86,41 +88,57 @@ p {
 }
 
 .one {
+  color: white;
   background-color: white;
   background-image: url("./icons/13386934661683191812.svg");
+  transform: rotate3d(-1, -1, 0, 180deg);
 }
 
 .two {
+  color: white;
   background-color: white;
   background-image: url("./icons/15219292871683191813.svg");
+  transform: rotate3d(-1, -1, 0, 180deg);
 }
 
 .three {
+  color: white;
   background-color: white;
   background-image: url("./icons/17384797831683191805.svg");
+  transform: rotate3d(-1, -1, 0, 180deg);
 }
 
 .four {
+  color: white;
   background-color: white;
   background-image: url("./icons/20289106671683191808.svg");
+  transform: rotate3d(-1, -1, 0, 180deg);
 }
 
 .five {
+  color: white;
   background-color: white;
   background-image: url("./icons/2076850531683191812.svg");
+  transform: rotate3d(-1, -1, 0, 180deg);
 }
 
 .six {
+  color: white;
   background-color: white;
   background-image: url("./icons/4791397661683191810.svg");
+  transform: rotate3d(-1, -1, 0, 180deg);
 }
 
 .seven {
+  color: white;
   background-color: white;
   background-image: url("./icons/61368961683191806.svg");
+  transform: rotate3d(-1, -1, 0, 180deg);
 }
 
 .eight {
+  color: white;
   background-color: white;
   background-image: url("./icons/8467917571683191812.svg");
+  transform: rotate3d(-1, -1, 0, 180deg);
 }
