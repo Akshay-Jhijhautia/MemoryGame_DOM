@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  row-gap: 5px;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(252, 187, 0),
+    rgb(249, 149, 0),
+    rgb(251, 137, 0),
+    rgb(182, 79, 58),
+    rgb(155, 52, 122),
+    rgb(165, 47, 153),
+    rgb(134, 24, 210)
+  );
+}
+
+button {
+  margin-left: -19.5%;
+  width: 90px;
+  height: 40px;
+  background-color: rgb(40, 42, 58);
+  color: rgb(116, 116, 115);
+  font-size: 1.2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+span {
+  color: white;
+  margin-top: -2.5%;
+  margin-left: -8%;
+  margin-bottom: -0.5%;
+  font-size: 1.2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+p {
+  color: white;
+  font-size: 1.2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-left: -7%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 24.5vw;
+  height: 50vh;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(134, 24, 210),
+    rgb(165, 47, 153),
+    rgb(155, 52, 122),
+    rgb(182, 79, 58),
+    rgb(251, 137, 0),
+    rgb(249, 149, 0),
+    rgb(252, 187, 0)
+  );
+}
+
+.box {
+  height: 10vh;
+  width: 5vw;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  margin: 10px;
+  background-color: black;
+}
+
+.gameOver {
+  display: none;
+}
+
+.endMessage {
+  display: block;
+}
+
+.one {
+  background-color: white;
+  background-image: url("./icons/13386934661683191812.svg");
+}
+
+.two {
+  background-color: white;
+  background-image: url("./icons/15219292871683191813.svg");
+}
+
+.three {
+  background-color: white;
+  background-image: url("./icons/17384797831683191805.svg");
+}
+
+.four {
+  background-color: white;
+  background-image: url("./icons/20289106671683191808.svg");
+}
+
+.five {
+  background-color: white;
+  background-image: url("./icons/2076850531683191812.svg");
+}
+
+.six {
+  background-color: white;
+  background-image: url("./icons/4791397661683191810.svg");
+}
+
+.seven {
+  background-color: white;
+  background-image: url("./icons/61368961683191806.svg");
+}
+
+.eight {
+  background-color: white;
+  background-image: url("./icons/8467917571683191812.svg");
+}
