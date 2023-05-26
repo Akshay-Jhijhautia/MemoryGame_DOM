@@ -31,6 +31,10 @@ function game() {
   const gameOverHeading = document.querySelector("h1");
 
   startButton.addEventListener("click", function () {
+    startButton.innerText = "Reload";
+    startButton.addEventListener("click", function () {
+      location.reload();
+    });
     const myInterval = setInterval(function () {
       seconds++;
       timer.innerText = `time :${seconds} sec`;
